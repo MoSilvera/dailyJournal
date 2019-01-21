@@ -1,0 +1,11 @@
+body {
+    font-family: "Courier New", Courier;
+    color: rebeccapurple;
+}
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rebeccapurple;
+    border-radius: 10px;
+    margin: 10px;
+}
