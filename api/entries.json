@@ -1,10 +1,39 @@
 {
   "journalEntries": [
-      {
-          "date": "01/16/19",
-          "conceptsCovered": "Publishing components to the DOM",
-          "journalContents": "After getting the opportunity to explain this like 12 times, I really feel like I have a handle on it.",
-          "mood": "curious"
-      }
+    {
+      "date": "2019-01-31",
+      "conceptsCovered": "Fetching and Posting",
+      "mood": "happy",
+      "journalContents": "Working with fetch and post today...async programming is actually awesome.",
+      "id": 1
+    },
+    {
+      "date": "2019-01-31",
+      "conceptsCovered": "Array methods",
+      "mood": "curious",
+      "journalContents": "We are ABOUT to get to array methods and I am so excited. ",
+      "id": 2
+    },
+    {
+      "date": "2019-01-31",
+      "conceptsCovered": "Dynamically populating the DOM",
+      "mood": "curious",
+      "journalContents": "I like this concept, it makes a lot of sense to me. Single page applications rock. ",
+      "id": 3
+    },
+    {
+      "date": "2019-01-31",
+      "conceptsCovered": "Trying something new",
+      "mood": "happy",
+      "journalContents": "Will this work? \nIT DID",
+      "id": 4
+    },
+    {
+      "date": "",
+      "conceptsCovered": "once more with feeling",
+      "mood": "happy",
+      "journalContents": "YAY",
+      "id": 5
+    }
   ]
 }

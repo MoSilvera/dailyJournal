@@ -5,24 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles/journal.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+    <title>Mo's Daily Journal</title>
 </head>
-<body>
-    <h1>Daily Journal</h1>
-    <form action="">
-        <fieldset>
+<body id="body">
+    <h1 id="h1">Daily Journal</h1>
+    <form id="forms" action="">
+        <fieldset class="fieldset">
             <label for="journalDate">Date of entry</label>
             <input type="date" name="journalDate" id="journalDate">
         </fieldset>
-        <fieldset>
+        <fieldset class="fieldset">
             <label for="conceptsCovered">Concepts covered</label>
             <input type="text" name="conceptsCovered" id="conceptsCovered">
         </fieldset>
-        <fieldset>
+        <fieldset class="fieldset">
             <label for="journalEntry">Journal Entry</label>
             <textarea name="journalEntry" id="journalEntry" cols="30" rows="10"></textarea>
         </fieldset>
-        <fieldset>
+        <fieldset class="fieldset">
             <label for="moodOption">Mood</label>
             <select name="moodOption" id="moodOption">
                 <option value="happy">Happy</option>
@@ -34,8 +36,11 @@
                 <option value="frustrated">Frustrated</option>
             </select>
         </fieldset>
-        <button>Record Journal Entry</button>
+
     </form>
+    <button id="submitButton">Record Journal Entry</button>
+    <div id="entryContainer"></div>
 </body>
 <script src="scripts/journal.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 </html>

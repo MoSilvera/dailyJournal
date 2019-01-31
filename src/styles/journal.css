@@ -1,11 +1,40 @@
-body {
+#h1 {
+    align-items: center;
+
+}
+
+#body {
+
     font-family: "Courier New", Courier;
     color: rebeccapurple;
+    max-width: 800px;
+    margin: auto;
+
 }
-fieldset {
+#forms {
     display: flex;
     flex-direction: column;
-    border: 2px solid rebeccapurple;
+    justify-content: space-around;
+    margin: 30px;
+
+}
+
+.fieldset {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid purple;
     border-radius: 10px;
     margin: 10px;
+    padding: 10px;
+}
+
+#submitButton {
+    margin: 10px;
+
+}
+
+#entryContainer {
+    display: flex;
+    flex-flow: row wrap; 
+    flex-basis: 31%;
 }
