@@ -35,6 +35,12 @@
 
 #entryContainer {
     display: flex;
-    flex-flow: row wrap; 
+    flex-flow: row wrap;
     flex-basis: 31%;
 }
+
+#moodOption {
+    -webkit-appearance: menulist-button;
+    height: 50px;
+    font-size: 1.5em;
+ }

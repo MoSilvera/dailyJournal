@@ -5,14 +5,27 @@ fetch("http://localhost:8088/journalEntries")
         parsedJournalEntries.forEach(entry => {
             const journalAsHTML = journalDOMComponent(entry);
             writeToDom(journalAsHTML)
-        });
+        })
 
     })
+let moodDropDown = document.getElementById("moodOption")
+
+let moodOptions =["Happy 😁", "Sad 😭", "Curious 🧠", "Excited 🤩", "Fearful 😱", "Frustrated 🤯", "Near Hopeless 💩", "VERKLEMPT 😒", "Winning 🏆", "Losing 🥉", "DGAF 🤷🏽‍♀️", "Anger of 1000 burning Suns 🤬", "VOM 🤮", ,"Magical 🧜🏼‍♀️"]
+
+const moodOptionCreator = (mood) => { return `
+<option class="options" value="${mood}">${mood}</option>`
+}
+moodOptions.forEach(mood => {
+    moodDropDown.innerHTML += moodOptionCreator(mood)
+});
+
+//refrence to the HTML element where the created journal entry elements will be injected
+let entryContainer = document.getElementById("entryContainer")
 
 //Returns the HTML for Journal Entries
 let journalDOMComponent = (oneEntry) => `
     <div class="card JournalEntry" style="width: 20rem;">
-    <div class="card-body" "oneFood">
+    <div class="card-body">
     <h5 class="card-title entryTitle">${oneEntry.conceptsCovered}</h5>
     <h6 class="card-subtitle mb-2 text-muted ">${oneEntry.date}</h6>
     <h6 class="card-subtitle mb-2 text-muted ">${oneEntry.mood}</h6>
@@ -31,10 +44,7 @@ let journalFactory = (conceptsCovered, date, mood, journalContents) => {
     }
 }
 
-//refrence to the HTML element where the created journal entry elements will be injected
-let entryContainer = document.getElementById("entryContainer")
-
-//function that adds created journal element to DOM
+//function that adds created journal entry element to DOM
 const writeToDom = (whatToPrint) => {
     entryContainer.innerHTML += whatToPrint
 }

@@ -34,6 +34,20 @@
       "mood": "happy",
       "journalContents": "YAY",
       "id": 5
+    },
+    {
+      "date": "2019-01-23",
+      "conceptsCovered": "Emoji trial",
+      "mood": "🤮",
+      "journalContents": "VOM",
+      "id": 6
+    },
+    {
+      "date": "2019-01-23",
+      "conceptsCovered": "another test",
+      "mood": "🧠",
+      "journalContents": "testing the brain",
+      "id": 7
     }
   ]
 }
