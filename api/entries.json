@@ -48,6 +48,34 @@
       "mood": "🧠",
       "journalContents": "testing the brain",
       "id": 7
+    },
+    {
+      "date": "2019-02-04",
+      "conceptsCovered": "async hell",
+      "mood": "DGAF 🤷🏽‍♀️",
+      "journalContents": "we went there ",
+      "id": 8
+    },
+    {
+      "date": "2019-02-20",
+      "conceptsCovered": "asdf",
+      "mood": "Curious 🧠",
+      "journalContents": "asdf",
+      "id": 9
+    },
+    {
+      "date": "",
+      "conceptsCovered": "sdfasfd",
+      "mood": "DGAF 🤷🏽‍♀️",
+      "journalContents": "asdfasdf",
+      "id": 10
+    },
+    {
+      "date": "2019-02-20",
+      "conceptsCovered": "testing testing",
+      "mood": "DGAF 🤷🏽‍♀️",
+      "journalContents": "123",
+      "id": 11
     }
   ]
 }
